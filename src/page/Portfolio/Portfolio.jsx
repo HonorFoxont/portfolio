@@ -10,10 +10,10 @@ const Portfolio = () => {
       key: 1,
     },
     {
-      title: "MyNovelList",
+      title: "Book App",
       body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita amet ducimus incidunt ex itaque accusamus nemo unde beatae asperiores architecto voluptates, nulla sunt nostrum quis veniam cumque? Cum, molestias a.",
       link: "https://github.com/HonorFoxont/Book-App",
-      built: "HTML5, CSS, Javascript",
+      built: "HTML5, Bootstrap, Javascript",
       key: 2,
     },
     {
