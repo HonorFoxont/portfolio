@@ -12,7 +12,9 @@ const Card = ({ projects }) => {
           </p>
 
           <p>
-            <a href={project.link}>Source code</a>
+            {project.status}
+            <a href={project.link}> Source code </a>
+            <span>| Status: {project.status}</span>
           </p>
         </div>
       ))}
