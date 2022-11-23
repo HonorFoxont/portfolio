@@ -8,14 +8,28 @@
     justify-content: center;
     margin: 20px 0;
     .item {
-      width: 70%;
+      width: 90%;
       background-color: #f7f4f4;
       padding: 20px;
       margin: 20px auto;
-      a {
-        color: rgb(112, 112, 250);
-        text-decoration: none;
+      .wrap {
+        display: flex;
+        align-items: center;
+        .info {
+          width: 78%;
+        }
+        img {
+          width: 20%;
+          margin-left: 10px;
+          margin-bottom: auto;
+          border: black 2px solid;
+          border-radius: 15px;
+        }
       }
+    }
+    a {
+      color: rgb(112, 112, 250);
+      text-decoration: none;
     }
   }
 }
