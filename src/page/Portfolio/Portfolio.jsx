@@ -18,7 +18,7 @@ const Portfolio = () => {
     {
       title: "Book-App",
       body: "The Book-App allows user to store collection of books with unique title, author and ISBN. User can add, delete and edit books stored in this app. The Information are stored in the local storage and will not disappear unless user deletes them.",
-      link: "https://github.com/HonorFoxont/Book-App",
+      link: "https://www.honorfoxont.io/bookapp",
       built: "HTML5, Bootstrap, Javascript",
       img: baicon,
       status: "Completed",
