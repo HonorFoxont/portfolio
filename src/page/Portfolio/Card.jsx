@@ -15,7 +15,7 @@ const Card = ({ projects }) => {
 
               <p>
                 {project.status}
-                <a href={project.link}> Source code </a>
+                <a href={project.link}> Source link </a>
                 <span>| Status: {project.status}</span>
               </p>
             </div>

@@ -18,7 +18,7 @@ const Footer = () => {
           </a>
         </div>
         <div>
-          <a href="https://www.linkedin.com/in/dipin-bhattarai-8aa055243">
+          <a href="https://www.linkedin.com/in/dipin-bhattarai">
             <img src={ldin} alt="" width="40px" />
           </a>
         </div>
