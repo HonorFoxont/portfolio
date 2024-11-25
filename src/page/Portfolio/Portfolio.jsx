@@ -31,7 +31,7 @@ const Portfolio = () => {
       img: pbicon,
       status: "Completed",
       key: 1,
-    },
+    }
   ];
   return (
     <div className="portfolio">
