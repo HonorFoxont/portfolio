@@ -1,6 +1,5 @@
 import "./portfolio.scss";
 import Card from "./Card";
-import wcicon from "../../images/wcicon.png";
 import pbicon from "../../images/postbook.png";
 import baicon from "../../images/bookapp.jpg";
 
@@ -9,7 +8,7 @@ const Portfolio = () => {
     {
       title: "Postbook",
       body: "Postbook is a simple social media app that accept multiple users. Users can post images with texts that are visible to other users. Postbook uses firebase as a backend where firestore stores data and firebase-auth is used for authitication. It includes unique profile page for every user which gives the basic information of the user.",
-      link: "https://github.com/HonorFoxont/postbook",
+      link: "https://honorfoxont.github.io/postbook/",
       built: "React",
       img: pbicon,
       status: "In Process",
@@ -18,20 +17,20 @@ const Portfolio = () => {
     {
       title: "Book-App",
       body: "The Book-App allows user to store collection of books with unique title, author and ISBN. User can add, delete and edit books stored in this app. The Information are stored in the local storage and will not disappear unless user deletes them.",
-      link: "https://www.honorfoxont.io/bookapp",
+      link: "https://honorfoxont.github.io/Book-App/",
       built: "HTML5, Bootstrap, Javascript",
       img: baicon,
       status: "Completed",
       key: 2,
     },
     {
-      title: "Weight Converter",
-      body: "Weight converter is a simple application which allows user to convert weight in different units of measurment to another. The units include pounds, kilos, grams and ounces. This application implements basic fundamentals of javascript.",
-      link: "https://github.com/HonorFoxont/Weight-Converter",
-      built: "HTML5, CSS, Javascript",
-      img: wcicon,
+      title: "SinglePage-portfolio",
+      body: "A single page portfolio build using html css and vanilla javascript.",
+      link: "https://honorfoxont.github.io/portfolio2/",
+      built: "React",
+      img: pbicon,
       status: "Completed",
-      key: 3,
+      key: 1,
     },
   ];
   return (
